@@ -50,7 +50,7 @@ app.get('/weather', (req, res) => {
 
 app.get("*", (req, res) => {
     res.render('404', {
-        title: "page not found"
+        title: "page not found according to the database."
     })
 })
 

@@ -17,12 +17,16 @@ body {
 }
 
 header {
+  top: 50%;
   margin-top: 16px;
   margin-bottom: 48px;
+  align-items: center;
+  justify-content: center;
+  color:#ffffff;
 }
 
 h2 {
-  font-size: 64px;
+  font-size: 94px;
   margin-bottom: 16px;
 }
 
@@ -47,7 +51,7 @@ h2 {
   width: 100%;
   justify-content: center;
   padding: 2rem;
-  background-color: #fafafa;
+  background-color: #9bf189;
 }
 
 .weatherLocation button{
@@ -64,7 +68,7 @@ h2 {
   height: 60%;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
-  background: #FAFAFA;
+  background: #FFFF00;
   font-family: weathericons;
   display: flex;
   align-items: center;
