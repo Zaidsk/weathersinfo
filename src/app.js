@@ -29,7 +29,7 @@ app.get('/weather', (req, res) => {
     const address = req.query.address
     if(!address) {
         return res.send({
-            error: "You must enter address in search text box"
+            error: "The name you are entering is not in our database, please put the correct name."
         })
     }
 
