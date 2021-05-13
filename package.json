@@ -1,5 +1,5 @@
 {
-  "name": "Weather's-Info",
+  "name" : "Weather's-Info",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
